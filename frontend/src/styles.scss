@@ -1,0 +1,49 @@
+.wheel-rotor-slices path:nth-child(1) {
+    fill: #f1b859;
+  }
+  .wheel-rotor-slices path:nth-child(2) {
+    fill: #f4994b;
+  }
+  
+  .wheel-rotor-slices path:nth-child(3) {
+    fill: #d7394d;
+  }
+  .wheel-rotor-slices path:nth-child(4) {
+    fill: #dd5b46;
+  }
+  .wheel-rotor-slices path:nth-child(5) {
+    fill: #f7d69e;
+  }
+  .wheel-rotor-slices path:nth-child(6) {
+    fill: #f1b859;
+  }
+  .wheel-rotor-slices path:nth-child(7) {
+    fill: #f4994b;
+  }
+  .wheel-rotor-slices path:nth-child(8) {
+    fill: #d7394d;
+  }
+  .wheel-rotor-slices path:nth-child(9) {
+    fill: #dd5b46;
+  }
+  .wheel-rotor-slices path:nth-child(10) {
+    fill: #f7d69e;
+  }
+
+  .wheel-label {
+    color: #000;
+    font-size: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: right;
+    padding-left: 15%;
+    width: 43%;
+    transform-origin: 0 0;
+    font-family: "open sans", Arial, sans-serif;
+    font-weight: 700;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
