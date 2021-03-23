@@ -1,0 +1,19 @@
+{
+  "lambdaLayers": [],
+  "permissions": {
+    "storage": {
+      "shopifydev": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ],
+      "shopifyusers": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  }
+}

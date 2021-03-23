@@ -1,0 +1,5 @@
+{
+    "tableName": "shopify-users",
+    "partitionKeyName": "email",
+    "partitionKeyType": "S"
+}

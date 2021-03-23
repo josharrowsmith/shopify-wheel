@@ -1,0 +1,60 @@
+{
+    "paths": [
+        {
+            "name": "/shopify",
+            "lambdaFunction": "shopify",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/shopify"
+        },
+        {
+            "name": "/install",
+            "lambdaFunction": "shopify",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/install"
+        },
+        {
+            "name": "/uninstall",
+            "lambdaFunction": "shopify",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/uninstall"
+        },
+        {
+            "name": "/signup",
+            "lambdaFunction": "shopify",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/signup"
+        }
+    ],
+    "resourceName": "shopify",
+    "apiName": "shopify",
+    "functionArns": [
+        {
+            "lambdaFunction": "shopify"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-shopify-dev-33058-authRole",
+        "unAuthRoleName": "amplify-shopify-dev-33058-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "shopify",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ],
+    "uuid": "e19bc96f"
+}
