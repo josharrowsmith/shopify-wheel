@@ -19,6 +19,7 @@ A wheel of forture for discounts :)
 - [ ] sync with db
 - [X] figure out how to inject code into theme
 - [ ] maybe change from express lambda to the new next api or just run the api here
+- [ ] use mongodb instead ?
 
 # Frontend 
 - [ ] fix spinning glitch
